@@ -10,6 +10,7 @@
     <?php
     echo "komik";
     echo "<br> matane";
+    $jnda ="mtane";
     ?>
 </body>
 </html>

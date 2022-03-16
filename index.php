@@ -9,6 +9,7 @@
 <body>
     <?php
     echo "komik";
+    echo "<br> matane";
     ?>
 </body>
 </html>

@@ -7,15 +7,19 @@
     <title>Document</title>
 </head>
 <body>
-    <table>
+    <table border="1">
         <tr>
             <th>ID</th>
             <th>Judul</th>
             <th>Konten</th>
             <th>action</th>
         </tr>
-        <?php 
-            $rahipu=" ";
+        <?php
+            $i=0;
+            while($i<4){
+                echo '<td style="text-align: center;">'.$i.'</td>';
+                $i++;
+            }
         ?>
     </table>
 </body>

@@ -38,17 +38,18 @@
         }
         $c++;
     }while($c <=13 );
-    echo "<br";
+    echo "<br>";
+    ////////////////////////
     for($no=0;$no<=30;$no++)
     {
         if($no % 2 == 0){
-            echo "<b>".$no."</b>";
+            echo "<b>".$no.","."</b>";
         }
         else{
-            echo $no;
+            echo $no.",";
         }
     }echo "<br>";
-
+    ////////////////////////
     $mhs = array("putra","ardi","galang","adit","sulthan","agung");
     foreach($mhs as $m)
     {

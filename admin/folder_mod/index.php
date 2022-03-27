@@ -5,14 +5,18 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="assets/css/bootstrap-grid.min.css">
 </head>
 <body>
     <table>
-        <?php
-        
+        <tr>
+            <th>ID</th>
+            <th>Judul</th>
+            <th>Konten</th>
+            <th>action</th>
+        </tr>
+        <?php 
+            $rahipu=" ";
         ?>
     </table>
-    <script src="assets/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>

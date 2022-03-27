@@ -32,13 +32,13 @@
         $b++;
     }echo "<br>";
     $c = 0;
-    // do{
-    //     if ($c >=2){
-    //         echo $c.",";
-    //     }
-    //     $c++;
-    // }while($c <=13 );
-    // echo "<br";
+    do{
+        if ($c >=2){
+            echo $c.",";
+        }
+        $c++;
+    }while($c <=13 );
+    echo "<br";
     for($no=0;$no<=30;$no++)
     {
         if($no % 2 == 0){

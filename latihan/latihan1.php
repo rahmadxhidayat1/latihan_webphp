@@ -66,18 +66,5 @@
         echo "<br>".$cd["kode"]." => ".$cd["alat"]." =>".$cd["harga"];
     }
     ?>
-    <tr>
-        <th>ID</th>
-        <th>Judul</th>
-        <th>konten</th>
-        <th>action</th>
-    </tr>
-    <?php 
-        $kotak = array(
-        array("id"=>"01", "judul"=>"Judul satu", "konten"=>"Isi berita 01", "action"=>"Edit Hapus"),
-        array("id"=>"02", "judul"=>"Judul dua", "konten"=>"Isi berita 02", "action"=>"Edit Hapus"),
-        array("id"=>"03", "judul"=>"Judul tiga", "konten"=>"Isi berita 03", "action"=>"Edit Hapus")
-        )
-    ?>
 </body>
 </html>

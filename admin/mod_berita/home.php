@@ -11,7 +11,7 @@
     <header>
         <MARquee style="color: red;" scrollamount="30">
             <h1>Tugas Web Programming</h1>
-        </MARquee>
+</MARquee>
     </header>
     <section></section>
     <div class="">

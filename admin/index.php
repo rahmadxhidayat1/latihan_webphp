@@ -11,7 +11,7 @@
   <!-- onload="alert('Halloo');" -->
   <body id="loginpage" onload="welcome()">
     <div class="container d-flex justify-content-center mt-5 pt-5">
-      <form class="bg-light p-5">
+      <form class="bg-light p-5" method="POST" action="ceklogin.php">
         <div class="alert alert-danger" role="alert" id="alert" style="display: none"></div>
         <div class="alert alert-success" role="alert" id="alertok" style="display: none"></div>
         <div id="judul" class="mt-3"></div>
@@ -22,9 +22,9 @@
         </div>
         <div class="mb-4">
           <label for="password" class="form-label">Password</label>
-          <input type="password" class="form-control" id="password" />
+          <input type="password" name="password" class="form-control" id="password" />
         </div>
-        <button type="button" class="btn btn-primary" onclick="ceklogin()">Login</button>
+        <button type="submit" class="btn btn-primary" onclick="ceklogin()">Login</button>
         <a href="../index.php" class="button info`">home</a>
       </form>
     </div>

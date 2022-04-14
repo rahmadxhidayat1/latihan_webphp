@@ -1,3 +1,7 @@
+<?php
+  require_once("../config/koneksi_db.php");
+  require_once("../config/config.php");
+?>
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -24,7 +28,7 @@
           <label for="password" class="form-label">Password</label>
           <input type="password" name="password" class="form-control" id="password" />
         </div>
-        <button type="submit" class="btn btn-primary" onclick="ceklogin()">Login</button>
+        <button type="submit" name="btnlogin" class="btn btn-primary">Login</button>
         <a href="../index.php" class="button info`">home</a>
       </form>
     </div>

@@ -34,7 +34,6 @@
     </div>
 
     <!-- modal untuk tampilkan loading -->
-
     <script src="assets/js/bootstrap.bundle.min.js"></script>
     <script src="javascript/main.js" type="text/javascript"></script>
   </body>

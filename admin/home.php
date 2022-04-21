@@ -11,9 +11,9 @@ require_once("../config/koneksi_db.php");
     <link rel="stylesheet" href="assets/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
 </head>
-<body>
+<body class="">
     <!-- navbar -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-secondary sticky-xl-top">
+    <nav class="navbar navbar-expand-lg navbar-light bg-info sticky-xl-top">
         <div class="container-fluid">
           <a class="navbar-brand text-danger" href="#">RAHMAD <span style="color: rgb(25, 44, 219);">HIDAYAT</span> PUTRA</a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">

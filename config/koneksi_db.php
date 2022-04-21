@@ -10,6 +10,5 @@
         exit;
     }
     else{
-        echo "Koneksi berhasil";
     }
 ?>
